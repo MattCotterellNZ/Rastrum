@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  rastrum.api:
+    image: rastrum.api
+    build:
+      context: ./Rastrum.Api
+      dockerfile: Dockerfile
