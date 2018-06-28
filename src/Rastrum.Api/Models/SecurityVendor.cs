@@ -9,6 +9,6 @@ namespace Rastrum.Api.Models
         public string Name { get; set; }
         public List<byte[]> PgpKeys { get; set; }
         public List<IPAddress> IPAddresses { get; set; }
-        public bool HasSignedNda { get; set; }
+        public List<byte[]> SignedNdas { get; set; }
     }
 }
